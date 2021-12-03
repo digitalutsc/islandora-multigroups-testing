@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.manager_user
+    - node.type.islandora_object
+  module:
+    - gnode
+    - node
+id: group_content_type_08d52f1166dc4
+label: 'Manager User: Group node (Repository Item)'
+description: 'Adds <em class="placeholder">Repository Item</em> content to groups both publicly and privately.'
+group_type: manager_user
+content_plugin: 'group_node:islandora_object'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: true

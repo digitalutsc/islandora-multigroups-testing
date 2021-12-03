@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: general_user
+label: 'General User'
+description: 'Authenticated users who can only view assigned objects'
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles:
+  - general_user-admin

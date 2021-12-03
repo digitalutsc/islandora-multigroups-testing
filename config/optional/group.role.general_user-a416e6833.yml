@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.general_user
+  enforced:
+    config:
+      - user.role.administrator
+id: general_user-a416e6833
+label: Administrator
+weight: 2
+internal: true
+audience: outsider
+group_type: general_user
+permissions_ui: false
+permissions: {  }

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.general_user
+    - media.type.fits_technical_metadata
+  module:
+    - groupmedia
+    - media
+id: group_content_type_9f4443c0adbc9
+label: 'General User: Group media (FITS Technical metadata)'
+description: 'Adds <em class="placeholder">FITS Technical metadata</em> content to groups both publicly and privately.'
+group_type: general_user
+content_plugin: 'group_media:fits_technical_metadata'
+plugin_config:
+  group_cardinality: 0
+  entity_cardinality: 1
+  use_creation_wizard: true

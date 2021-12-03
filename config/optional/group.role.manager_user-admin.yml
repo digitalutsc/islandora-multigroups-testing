@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.manager_user
+id: manager_user-admin
+label: Admin
+weight: 100
+internal: false
+audience: member
+group_type: manager_user
+permissions_ui: true
+permissions:
+  - 'access content overview'
+  - 'access group_media overview'
+  - 'access group_node overview'
+  - 'administer group'
+  - 'administer members'
+  - 'delete group'
+  - 'delete group revisions'
+  - 'edit group'
+  - 'leave group'
+  - 'revert group revisions'
+  - 'update own group_membership content'
+  - 'view any unpublished group'
+  - 'view group'
+  - 'view group revisions'
+  - 'view group_membership content'
+  - 'view latest group version'
+  - 'view own unpublished group'

@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: manager_user
+label: 'Manager User'
+description: 'Authenticated users who can view and edit the assigned objects'
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles:
+  - manager_user-admin

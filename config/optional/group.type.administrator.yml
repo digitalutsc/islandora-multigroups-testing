@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: administrator
+label: Administrator
+description: 'Authenticated users who has Admin role'
+new_revision: true
+creator_membership: true
+creator_wizard: true
+creator_roles:
+  - administrator-admin
